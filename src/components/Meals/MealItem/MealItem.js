@@ -14,7 +14,7 @@ const MealItem = (props) => {
       price:props.price,
     });
   };
-  const price = `$${props.price.toFixed(2)}`; //up to 2 decimal points
+  const price = `Rs. ${props.price.toFixed(2)}`; //up to 2 decimal points
   return (
     <li className={classes.meal}>
       <div>

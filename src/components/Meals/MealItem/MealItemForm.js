@@ -35,7 +35,7 @@ const MealItemForm = (props) => {
         }}
       />
       <button >+ Add</button>
-      {!setAmountIsValid && <p>Please enter a valid amount between 1 and 5</p>}
+      {!amountIsValid && <p>Please enter a valid amount between 1 and 5</p>}
     </form>
   );
 };
